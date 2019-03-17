@@ -4,7 +4,7 @@ These ARM Teensies are now supported through [ChibiOS](http://chibios.org).
 
 ## Installing the ARM toolchain
 
-You'll need to install an ARM toolchain, there is now a nice documentation about the two AVR/ARM toolchain : https://docs.qmk.fm/getting_started_build_tools.html and you can just run `sudo util/install_dependencies.sh`.
+You'll need to install an ARM toolchain, there is now a nice documentation about the two AVR/ARM toolchain : https://docs.qmk.fm/#/getting_started_build_tools and you can just run `sudo util/install_dependencies.sh`.
 This toolchain is used instead of `avr-gcc`, which is only for AVR chips. Naturally you'll also need the usual development tools (e.g. `make`), just as in the AVR setting.
 
 You can find others way with the [gcc ARM embedded](https://launchpad.net/gcc-arm-embedded) website, or using your favourite package manager. After installing, you should be able to run `arm-none-eabi-gcc -v` in the command prompt and get sensible output.
