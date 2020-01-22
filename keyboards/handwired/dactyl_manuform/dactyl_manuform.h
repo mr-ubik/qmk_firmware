@@ -42,8 +42,8 @@
 		{ R25, R24, R23, R22, R21, R20 },    \
 		{ R35, R34, R33, R32, R31, R30 },    \
 		{ R45, R44, R43, R42, R41, R40 },    \
-		{ KC_NO, R53, R52, R51, KC_NO, KC_NO },  \
-		{ R63, R62, R61, R60, KC_NO, KC_NO }  \
+		{ KC_NO, KC_NO, R52, R51, R53, KC_NO },  \
+		{ KC_NO, KC_NO, R60, R61, R62, R63 }  \
 	}
 #else
 #define LAYOUT( \
