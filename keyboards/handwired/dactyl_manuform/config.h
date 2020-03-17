@@ -37,8 +37,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION ROW2COL
 
 #define MATRIX_ROW_PINS { F5, F6, F7, B1, B3, B2, B6 }
-#define MATRIX_COL_PINS { D4, C6, D7, E6, B4, B5  } // for left
-//#define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4  } // for right
+//#define MATRIX_COL_PINS { D4, C6, D7, E6, B4, B5  } // for left
+#define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4  } // for right
 
 
 /* define if matrix has ghost */
